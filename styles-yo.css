@@ -1,0 +1,293 @@
+html {
+    /*background: linear-gradient(to right, black 0%, rgb(21, 71, 255) 50%, black 100%);
+
+    /* rosado a púrpura */
+    width: 100vw;
+    /*background-position: center;
+    /*background-image: url('https://i.pinimg.com/736x/7f/e3/8c/7fe38cb5271d2209cb7ef7965b0837a2.jpg');*/
+    color: rgb(255, 255, 255);
+    background-size: contain;
+    /* Cubre todo el fondo sin distorsión */
+
+    background:
+        linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+   
+        url('img/yo/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+
+}
+
+.html-contenido {
+    max-width: 70%;
+    margin: 0 auto;
+    justify-items: center;
+    scroll-behavior: smooth;
+    text-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+header {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.logo img {
+    width: 100%;
+    max-height: 100px;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.menu-central {
+    gap: 10%;
+    display: flex;
+}
+
+.menu-central div a {
+    text-decoration: none;
+    /* Quita el subrayado */
+    color: inherit;
+    font-size: 1.3em;
+    /* Hereda el color del texto circundante */
+    transition: color 0.3s;
+
+}
+
+.menu-central div a:hover {
+    color: #494040;
+    /* Cambia a blanco al pasar el cursor */
+}
+
+.redes-sociales img {
+    max-height: 30px;
+    gap: 10%;
+    border-radius: 100%;
+    justify-items: end;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+}
+
+.item-derecha {}
+
+.logo {
+    align-items: start;
+}
+
+
+body {
+    text-align: center;
+}
+
+.yo {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-top: 60px;
+}
+
+.resumen {
+
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.resumen a {
+    background: #7e7575;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    border-radius: 5ch;
+    text-decoration: none;
+    /* Quita el subrayado */
+    color: inherit;
+    transition: 0.3s;
+}
+
+.contactame {
+    margin-top: 10%;
+}
+
+.resumen a:hover {
+    color: #494040;
+}
+
+.contactame {
+    transition: transform 0.3s;
+}
+
+.contactame:hover {
+
+    transform: scale(1.02);
+}
+
+.nombre h2 {
+    margin-top: 0.1em;
+}
+
+.nombre h3 {
+    margin-bottom: 0.1em;
+}
+
+.foto {
+    max-height: 400px;
+    border-radius: 10%;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+}
+
+.foto img {
+    border-radius: 10%;
+}
+
+
+
+.valores {
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px 10px;
+    margin-top: 60px;
+}
+
+.valores div h1 {
+    margin-bottom: 5%;
+}
+
+.tarjeta-valores {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin: 0 auto;
+}
+
+.tarjeta-valores div {
+    background-image: url('img/yo/fondopintura.png');
+    background-size: contain;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%) sepia(100%) hue-rotate(200deg) saturate(500%);
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform (0.3s);
+    box-shadow: black;
+}
+
+.tarjeta-valores div:hover {
+    transform: scale(1.03);
+}
+
+.estado {
+    gap: 10%;
+}
+
+.estado img {
+    border-radius: 100%;
+}
+
+.tarjeta-valores h4 {
+    /*cambiar a fondo imagen */
+    padding: 10px 15px;
+    font-size: 1%;
+    border-radius: 5ch;
+    transition: 0.3s;
+    font-size: 1em;
+
+}
+
+.tarjeta-valores h4:hover {
+    color: #000000;
+}
+
+.experiencia {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10%;
+    margin-top: 60px;
+}
+.foto img{
+    height: 400px;
+}
+
+.resumen-experiencia {
+    display: block;
+    text-align: center;
+}
+
+.estado {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.estado img {
+    max-height: 70px;
+}
+
+.hobby {
+    margin-top: 60px;
+}
+
+.hobby-resumen {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.tarjeta-hoby {
+
+    justify-items: center;
+
+
+}
+
+.tarjeta-hoby img {
+    max-height: 160px;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+}
+
+.proyectos {
+    margin-top: 60px;
+}
+
+.proyecto-resumen {
+    display: flex;
+    gap: 10%;
+}
+
+.proyecto-resumen img {
+    border-radius: 10%;
+    height: 400px;
+    filter: hue-rotate(280deg) saturate(120%) brightness(100%);
+}
+.derechos{
+    text-decoration: none;
+    /* Quita el subrayado */
+    color: inherit;
+    font-size: 1.1em;
+    /* Hereda el color del texto circundante */
+    transition: color 0.3s;
+}
+.derechos:hover{
+    color: #494040;
+}
