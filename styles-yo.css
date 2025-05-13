@@ -282,7 +282,10 @@ body {
 }
 
 .foto img {
-    height: 400px;
+    height: 450px;
+    transform: scaleX(-1);
+      filter: brightness(2.5); /* 1 es normal, >1 más brillante, <1 más oscuro */
+
 }
 
 .resumen-experiencia {
@@ -334,7 +337,7 @@ body {
 }
 
 .tarjeta-hoby img {
-    max-height: 160px;
+    max-height: 230px;
     border-radius: 100%;
     filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
 }
@@ -344,6 +347,9 @@ body {
     .hobby-resumen {
         gap: 2%;
         flex-wrap: wrap;
+    }
+    .tarjeta-hoby img {
+        max-height: 160px;
     }
 }
 
