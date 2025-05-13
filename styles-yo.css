@@ -20,6 +20,11 @@ html {
     scroll-behavior: smooth;
 
 }
+@media (max-width: 768px) {
+    html {
+       background-repeat: repeat;
+    }
+    }
 
 .html-contenido {
     max-width: 70%;
@@ -193,7 +198,7 @@ body {
 
 @media (max-width: 768px) {
     .yo {
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
 
     .resumen {
@@ -337,7 +342,8 @@ body {
 
 @media (max-width: 768px) {
     .hobby-resumen {
-        gap: 3%;
+        gap: 2%;
+        flex-wrap: wrap;
     }
 }
 
